@@ -1,0 +1,124 @@
+$color_1: rgb(90, 90, 90);
+$color_2: rgb(210, 210, 210);
+$color_3: rgb(230, 230, 230);
+$color_4: rgb(120, 120, 120);
+
+//$color_3: blue;
+$font-family_1: "Roboto", sans-serif;
+$background-color_1: rgb(210, 210, 210);
+$background-color_2: rgb(240, 240, 240);
+$background-color_3: rgb(170, 170, 170);
+$background-color_4: rgb(200, 200, 200);
+$background-color_5: rgb(120, 120, 120);
+$background-color_6: white;
+//$background-color_3: #f0f0f0;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+
+  main {
+    .group {
+      display: flex;
+      justify-content: space-evenly;
+      width: 100%;
+      background-color: $background-color_1;
+      color: $color_1;
+      h1 {
+        font-size: 48px;
+      }
+      div {
+        width: 50%;
+        margin: 24px;
+        padding: 24px;
+        div {
+          width: 100%;
+        }
+      }
+      .imageDiv {
+        img {
+          width: 100%;
+          border-radius: 24px;
+        }
+      }
+    }
+    .group:nth-child(odd) {
+      background-color: $background-color_2;
+      .imageDiv {
+        order: 2;
+      }
+      .descrip {
+        order: 1;
+      }
+    }
+    #diagram {
+      width: 100%;
+      padding: 48px;
+    }
+    #grouper {
+      background-color: $background-color_1;
+      #descriper {
+        width: 500px;
+        margin: auto;
+        padding: 24px;
+      }
+      #imageDiver {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 24px;
+        img {
+          width: 300px;
+          height: 100%;
+          margin: 24px;
+          border-radius: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    main {
+      .group {
+        flex-direction: column;
+        div {
+          width: 100%;
+          margin: 0;
+        }
+        .imageDiv {
+          padding: 0;
+
+          img {
+            border-radius: 0;
+          }
+        }
+        .descrip {
+        }
+      }
+      #diagram {
+        padding: 0;
+      }
+      #grouper {
+        #descriper {
+          width: 100%;
+        }
+        #imageDiver {
+          display: block;
+          padding: 0;
+          img {
+            border-radius: 0;
+            margin: 0;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

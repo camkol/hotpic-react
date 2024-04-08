@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+body main .group {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: rgb(210, 210, 210);
+  color: rgb(90, 90, 90);
+}
+body main .group h1 {
+  font-size: 48px;
+}
+body main .group div {
+  width: 50%;
+  margin: 24px;
+  padding: 24px;
+}
+body main .group div div {
+  width: 100%;
+}
+body main .group .imageDiv img {
+  width: 100%;
+  border-radius: 24px;
+}
+body main .group:nth-child(odd) {
+  background-color: rgb(240, 240, 240);
+}
+body main .group:nth-child(odd) .imageDiv {
+  order: 2;
+}
+body main .group:nth-child(odd) .descrip {
+  order: 1;
+}
+body main #diagram {
+  width: 100%;
+  padding: 48px;
+}
+body main #grouper {
+  background-color: rgb(210, 210, 210);
+}
+body main #grouper #descriper {
+  width: 500px;
+  margin: auto;
+  padding: 24px;
+}
+body main #grouper #imageDiver {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px;
+}
+body main #grouper #imageDiver img {
+  width: 300px;
+  height: 100%;
+  margin: 24px;
+  border-radius: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  body main .group {
+    flex-direction: column;
+  }
+  body main .group div {
+    width: 100%;
+    margin: 0;
+  }
+  body main .group .imageDiv {
+    padding: 0;
+  }
+  body main .group .imageDiv img {
+    border-radius: 0;
+  }
+  body main #diagram {
+    padding: 0;
+  }
+  body main #grouper #descriper {
+    width: 100%;
+  }
+  body main #grouper #imageDiver {
+    display: block;
+    padding: 0;
+  }
+  body main #grouper #imageDiver img {
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+  }
+}/*# sourceMappingURL=styles.css.map */
