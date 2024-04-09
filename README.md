@@ -40,7 +40,6 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- [Bootstrap](https://getbootstrap.com/) - CSS library
 - CSS custom properties
 - [Sass](https://sass-lang.com/) - Preprocessor scripting language
 - Flexbox
