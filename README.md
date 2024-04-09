@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Hot Pic
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Users should be able to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- View the optimal layout for the app depending on their device's screen size
+- See the product detials and images
 
-### `npm test`
+### Screenshot
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![](./screen.JPG)
 
-### `npm run build`
+### Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Live Site URL: [View](https://hotpic.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## My process
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- I developed this webpage specifically for my mother's product, the "Hot Pic," which offers innovative solutions for natural ethnic hair care.
+- This project marks my inaugural solo venture in applying React skills that I've learned. It represents a significant milestone in my journey as a developer, showcasing the practical application of React concepts.
+- React is utilized to build modular components for different sections of the webpage, enhancing reusability and maintainability.
+- The Sections component dynamically renders sections based on data stored in the section array, allowing flexibility and scalability.
+- SCSS (Sass) is used for styling, offering enhanced features like variables, nesting, and mixins to maintain consistency and manage complexity.
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Semantic HTML5 markup
+- [Bootstrap](https://getbootstrap.com/) - CSS library
+- CSS custom properties
+- [Sass](https://sass-lang.com/) - Preprocessor scripting language
+- Flexbox
+- Mobile-Responsive Design
+- JavaScript - Scripting language
+- [React](https://reactjs.org/) - JS library
+- [Photoshop](https://www.adobe.com/products/photoshop.html) - Image editor
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+First React project I ventured on my own. I was impressed with myself how I reason with setting up the structure and remember what I learned in my lessons.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Continued development
 
-## Learn More
+Will continue to improve it to from gained knowledge and client's request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Cameron Howze](https://camkol.github.io/)
+- Frontend Mentor - [@camkol](https://www.frontendmentor.io/profile/camkol)
+- GitHub- [@camkol](https://github.com/camkol)
+- LinkedIn - [@cameron-howze](https://www.linkedin.com/in/cameron-howze-28a646109/)
+- E-Mail - [cameronhowze4@outlook.com](mailto:cameronhowze4@outlook.com)
